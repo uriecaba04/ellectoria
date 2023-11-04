@@ -1,3 +1,4 @@
+pip install --upgrade pip' 
 altair
 numpy
 pandas
@@ -5,3 +6,4 @@ pydeck
 streamlit
 PyPDF2
 langchain
+os
