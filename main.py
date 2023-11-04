@@ -34,7 +34,6 @@ if(pdf_obj):
     user_question=st.text_input("Ingresa tu pregunta")
     if(user_question):
         os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-        #os.environ["OPENAI_API_KEY"] ='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'
         docs = knowledge_base.similarity_search(user_question, 18)
         # Utilizar los parrafos similares para darle contexto a ChatGPT
         llm = ChatOpenAI(model_name='gpt-3.5-turbo')
