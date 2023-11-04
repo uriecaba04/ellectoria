@@ -1,4 +1,3 @@
-pip
 altair
 numpy
 pandas
