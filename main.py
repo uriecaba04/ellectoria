@@ -47,11 +47,11 @@ if(pdf_obj):
 
 hide_streamlit_style = """
             <style>
-            #MainMenu {visibility: hidden;}
-            header {visibility: hidden;}
+            #MainMenu {visibility: visible;}
+            header {visibility: visible;}
             footer {visibility: visible;}
             footer:after{
-             content: 'Desarrollado Por Uriel Camargo';
+             content: '©Uriel Camargo 2023';
              display:block;
              position:relative;
              color:tomato;
