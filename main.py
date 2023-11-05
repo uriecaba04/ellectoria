@@ -8,8 +8,8 @@ from langchain.chains.question_answering import load_qa_chain
 import os
 
 
-st.header("IA Te digo lo que dice tu documento")
-st.write("¡Hola! Esta es una app con la que puedes interactuar con tu Documento")
+st.header("El lector IA")
+st.write("¡Hola! Esta es una app con la que puedes ver el análisis de la IA de tu documento PDF")
 OPENAI_API_KEY=st.text_input('Open AI API key', type="password")
 pdf_obj=st.file_uploader("Carga tu documento", type="pdf")
 
