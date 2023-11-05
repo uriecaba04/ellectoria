@@ -9,7 +9,7 @@ import os
 
 
 st.header("El lector IA")
-st.write("¡Hola! Esta es una app con la que puedes ver el análisis de la IA de tu documento PDF")
+st.write("¡Hola! Esta es una app con la que puedes ver el análisis de la IA de tu documento PDF, Pruébalo!!")
 OPENAI_API_KEY=st.text_input('Open AI API key', type="password")
 pdf_obj=st.file_uploader("Carga tu documento", type="pdf")
 
